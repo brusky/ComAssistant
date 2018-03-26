@@ -1,0 +1,33 @@
+{
+  "buildFiles": [
+    "D:\\AndroidStudioProjects\\ComAssistant\\app\\src\\main\\jni\\Android.mk",
+    "D:\\AndroidStudioProjects\\ComAssistant\\app\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "D:\\SDK\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\AndroidStudioProjects\\ComAssistant\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\AndroidStudioProjects\\ComAssistant\\app\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-14 NDK_OUT\u003dD:/AndroidStudioProjects/ComAssistant/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\AndroidStudioProjects\\ComAssistant\\app\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "libraries": {
+    "serial_port-release-x86": {
+      "buildCommand": "D:\\SDK\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\AndroidStudioProjects\\ComAssistant\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\AndroidStudioProjects\\ComAssistant\\app\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-14 NDK_OUT\u003dD:/AndroidStudioProjects/ComAssistant/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\AndroidStudioProjects\\ComAssistant\\app\\build\\intermediates\\ndkBuild\\release\\lib D:/AndroidStudioProjects/ComAssistant/app/build/intermediates/ndkBuild/release/obj/local/x86/libserial_port.so",
+      "toolchain": "toolchain-x86",
+      "abi": "x86",
+      "artifactName": "serial_port",
+      "files": [
+        {
+          "src": "D:\\AndroidStudioProjects\\ComAssistant\\app\\src\\main\\jni\\SerialPort.c",
+          "flags": "\"-gcc-toolchain\" \"D:/SDK/ndk-bundle/build//../toolchains/x86-4.9/prebuilt/windows-x86_64\" \"-target\" \"i686-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fPIC\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O2\" \"-DNDEBUG\" \"-ID:/AndroidStudioProjects/ComAssistant/app/src/main/jni\" \"-DANDROID\" \"-D__ANDROID_API__\u003d14\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-mstackrealign\" \"--sysroot\" \"D:/SDK/ndk-bundle/build//../sysroot\" \"-isystem\" \"D:/SDK/ndk-bundle/build//../sysroot/usr/include/i686-linux-android\""
+        }
+      ],
+      "output": "D:\\AndroidStudioProjects\\ComAssistant\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86\\libserial_port.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-x86": {
+      "cCompilerExecutable": "D:\\SDK\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}
